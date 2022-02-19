@@ -16,9 +16,6 @@
 </head>
 
 <body>
-
-
-
   <p>
     <a
       href=""
@@ -47,38 +44,366 @@
     >Contact</a>
 
   </p>
-
+  <h1>Place Order</h1>
   <p>
-    <a
-      href=""
-      title="Home"
-    >Home</a> *
-    target
-
-
-    <a
-      href=""
-      title="Place Order"
+    This is the <b>guest checkout</b>, thank you for your order!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <h2>Products</h2>
+  <p>
+    <img
+      src="./images/mouse.jpg"
+      alt="8"
     >
-      <b>Place Order</b>
-    </a>
-
-
     <a
       href=""
-      title="Customer Service"
-    >Customer Service</a>*
-    <!-- * asterixul este decoratie :D Remember for Marius  -->
-
+      title="Sterge"
+    >Sterge</a>
     <a
       href=""
-      title="Contact"
-    >Contact</a>
-
+      title="Editeaza"
+    >Editeaza</a>
   </p>
 
+  <p>
+    <img
+      src="./images/extension_chord.jpg"
+      alt="8"
+    >
+    <a
+      href=""
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href=""
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
 
-  <!-- un singur formular si 4 fieldset/paragraf
+  <p>
+    <img
+      src="./images/phone.jpg"
+      alt="8"
+    >
+    <a
+      href=""
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href=""
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <h2>Order Now</h2>
+
+  <p>
+    On our website <i>no account is needed</i>.
+  </p>
+  <ol>
+    <li>First we need some info about yourself. Don’t forget to provide a phone.
+    </li>
+  </ol>
+  <ol>
+    <li>Then we need your real shipping address.
+    </li>
+  </ol>
+  <ol>
+    <li>Finally, your credit card information.
+
+    </li>
+  </ol>
+  <form>
+    <fieldset>
+      <legend>Personal Information:</legend>
+      <label for="title">Title</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked="checked"
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      >
+
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+
+      <label for="surname">Surname*</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="email">Email*</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+
+      <label for="phone">Phone*</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address-name">Name*</label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        placeholder="Name"
+        required
+      >
+
+      <label for="address-surname">Surname*</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="address-phone">Phone*</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        placeholder="Phone"
+        required
+      >
+
+      <label for="address1">Address Line 1*</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+
+      <label for="address2">Address Line 2</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+        required
+      >
+
+      <label for="city">City*</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+
+      <label for="state">State*</label>
+      <select
+        type="undefined"
+        name="state"
+        required
+        id="state"
+      >
+        <option>
+
+        </option>
+        <option>
+
+        </option>
+        <option>
+
+        </option>
+      </select>
+
+
+      <label for="postcode">Postcode*</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">Card Number*</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        placeholder="Card Number"
+        required
+      >
+
+      <label for="card-name">Name on Card*</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        placeholder="Name on card"
+        required
+      >
+      <label for="card-expiry-month">card-expiry-month*</label>
+      <select
+        type="undefined"
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option> 01 </option>
+        <option> 02 </option>
+        <option> 03 </option>
+        <option>04</option>
+        <option> 05 </option>
+        <option> 06 </option>
+        <option> 07 </option>
+        <option>08</option>
+        <option> 09 </option>
+        <option> 10 </option>
+        <option> 11 </option>
+        <option>12</option>
+      </select>
+      <label for="card-expiry-year">Card-expiry-year*</label>
+      <select
+        type="undefined"
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+
+      </select>
+      <label for="card-cvv">
+        CVV*
+      </label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Form Controls</legend>
+      <label for="terms">* You are requested to agree to the<a
+          href=""
+          title="terms and conditions"
+        >terms and conditions</a></label>
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        placeholder="Terms"
+        required
+      >
+
+      <label for="subscribe">Subscribe*</label>
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        placeholder="Subscribe"
+        required
+      >
+
+
+      <label for="gdpr-consent">Gdpr-consent*</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        placeholder="Gdpr-consent"
+        required
+      >
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >submit</button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >reset</button>
+
+    </fieldset>
+
+
+
+    <p>
+      <a
+        href=""
+        title="Home"
+      >Home</a> *
+      target
+
+
+      <a
+        href=""
+        title="Place Order"
+      >
+        <b>Place Order</b>
+      </a>
+
+
+      <a
+        href=""
+        title="Customer Service"
+      >Customer Service</a>*
+      <!-- * asterixul este decoratie :D Remember for Marius  -->
+
+      <a
+        href=""
+        title="Contact"
+      >Contact</a>
+
+    </p>
+
+
+    <!-- un singur formular si 4 fieldset/paragraf
 CTRL+/ este paragraf  -->
 
 
@@ -103,11 +428,11 @@ CTRL+/ este paragraf  -->
 
 
 
-  <div
-    class="pixeltab-host"
-    id="html01-04-07"
-  ></div>
-  <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+    <div
+      class="pixeltab-host"
+      id="html01-04-07"
+    ></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
 </body>
 
 </html>
