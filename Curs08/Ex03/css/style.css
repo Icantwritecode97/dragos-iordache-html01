@@ -34,6 +34,7 @@
   padding-right: 19px;
   margin: 0 auto;
 }
+
 .purple {
   background-color: purple;
   border: 2px green dotted;
@@ -42,6 +43,7 @@
   padding-right: 15px;
   padding-left: 20px;
 }
+
 .turquoise {
   background-color: turquoise;
   border: 1px blue solid;
