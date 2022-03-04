@@ -1,1 +1,29 @@
+h2 + h3 {
+  text-decoration: underline dotted red;
+  margin-top: 8px;
+}
 
+ul > li > ul > li {
+  text-decoration: underline;
+}
+
+.my-list > li {
+  /* hint */
+}
+
+/* add code */
+
+.random ~ p {
+  padding: 10px 12px;
+  border: 1px solid yellow;
+}
+
+.nested ul > li > ul > li > a {
+  display: inline-block;
+  padding: 5px;
+  border: solid red;
+}
+/* Cerinta Corecta
+.nested > li > ul > li > a */
+/* browserul citeste de la dreapta la stanga pe invers pentru
+ca ultimul element din apropierea acoladei va fi stilat */
