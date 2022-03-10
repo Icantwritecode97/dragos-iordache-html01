@@ -4,7 +4,7 @@
 
 .my-first-list a::before {
   display: inline-block;
-  content:'' ;
+  content: '';
   width: 5px;
   height: 5px;
   background-color: purple;
@@ -15,7 +15,7 @@
 }
 
 .my-first-list a::after {
-  content:'';
+  content: '';
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -24,4 +24,26 @@
   position: relative;
   top: -1px;
   margin-left: 8px;
+}
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list ::before {
+  content: '';
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.my-second-list ::after {
+  content: '';
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  background-color: blue;
+  transform: rotate(45deg);
 }
